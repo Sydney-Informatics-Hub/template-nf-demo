@@ -1,15 +1,13 @@
-# Pipeline name
+# template-nf-demo
 
-## Workflow description 
+This workflow demonstrates the basics of **Nextflow**. It capture the demo provided in the [template-nf repo](https://github.com/Sydney-Informatics-Hub/template-nf) for workshop purposes and is designed as a starting point for learning core nf concepts.
 
-## User guide 
+---
 
-## Component tools 
+## Running the Demo Workflow
 
-## Additional notes
+To run the demo workflow in your terminal:
 
-## Help / FAQ / Troubleshooting
-
-## License(s)
-
-## Acknowledgements/citations/credits
+```bash
+nextflow run main.nf --input assets/samplesheet.csv
+```
